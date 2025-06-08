@@ -61,7 +61,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Development</h3>
-                    <p>rom building a full-stack plagiarism detection system to contributing to large-scale app UI development, I create performant and scalable web applications using technologies like React, Node.js, and MongoDB. I focus on end-to-end ownership—from frontend interaction to backend logic and deployment.</p>
+                    <p>From building a full-stack plagiarism detection system to contributing to large-scale app UI development, I create performant and scalable web applications using technologies like React, Node.js, and MongoDB. I focus on end-to-end ownership—from frontend interaction to backend logic and deployment.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
