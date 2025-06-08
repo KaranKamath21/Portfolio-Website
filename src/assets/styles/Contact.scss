@@ -1,0 +1,84 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  text-align: left;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+    width: 10%;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+}
+
+.dark-mode .contact-form {
+  background-color: #0E1117;
+  color: white;
+}
+
+.dark-mode .contact-form .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.dark-mode .contact-form .MuiInputLabel-root {
+  color: white;
+}
+
+.dark-mode .contact-form input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.light-mode .contact-form {
+  background-color: white;
+  color: black;
+}
+
+.light-mode .contact-form .MuiOutlinedInput-notchedOutline {
+  border-color: black;
+}
+
+.light-mode .contact-form .MuiInputLabel-root {
+  color: black;
+}
+
+.light-mode .contact-form input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
